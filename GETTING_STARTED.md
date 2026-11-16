@@ -1,15 +1,15 @@
 # Getting started
 
-Maintained by [coding1688 / Moonsea](https://moonsea.dev). MIT licensed.
+Maintained by [moonsea-dev / Moonsea](https://moonsea.dev). MIT licensed.
 
-Install with Composer. If the package is not available from your configured registry, add its GitHub VCS repository to your application's composer.json first. The existing package name and PHP namespace are unchanged. Laravel discovers the service provider automatically.
+Install with Composer. If the package is not available from your configured registry, add its GitHub VCS repository to your application's composer.json first. Version 0.6.0 uses `moonsea-dev/pl-devtools` and namespace `Moonsea\DevTools`. When upgrading, replace the previous Composer requirement and update class references in application code and published configuration before rebuilding caches. Laravel discovers the service provider automatically.
 
 Configuration precedence is: package defaults < legacy `pl.devtools` < `devtools`. New applications should use only `config/devtools.php`. Old `pl.*` values are accepted at provider registration time; runtime overrides must use the canonical key. Maps merge and lists replace (including an empty list). After changing cached configuration, rebuild your application's configuration cache.
 
 ## Local development
 
 ```bash
-composer require --dev coding1688/pl-devtools
+composer require --dev moonsea-dev/pl-devtools
 php artisan vendor:publish --tag=devtools-config
 ```
 

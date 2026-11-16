@@ -1,8 +1,8 @@
 <?php
 
-namespace Coding1688\DevTools\Collectors;
+namespace Moonsea\DevTools\Collectors;
 
-use Coding1688\DevTools\Diagnostics\Security\SecurityAuditor;
+use Moonsea\DevTools\Diagnostics\Security\SecurityAuditor;
 
 final class SecurityCollector implements Collector
 {

@@ -1,24 +1,24 @@
 <?php
 
-use Coding1688\DevTools\Collectors\LogsCollector;
-use Coding1688\DevTools\Collectors\PerformanceCollector;
-use Coding1688\DevTools\Collectors\RequestCollector;
-use Coding1688\DevTools\Collectors\SecurityCollector;
-use Coding1688\DevTools\Collectors\ServerCollector;
-use Coding1688\DevTools\Collectors\SqlCollector;
-use Coding1688\DevTools\Collectors\TelemetryCollector;
-use Coding1688\DevTools\Diagnostics\Security\Checks\AppDebugCheck;
-use Coding1688\DevTools\Diagnostics\Security\Checks\AppKeyCheck;
-use Coding1688\DevTools\Diagnostics\Security\Checks\BcryptRoundsCheck;
-use Coding1688\DevTools\Diagnostics\Security\Checks\ComposerAuditCheck;
-use Coding1688\DevTools\Diagnostics\Security\Checks\DatabaseUserCheck;
-use Coding1688\DevTools\Diagnostics\Security\Checks\DebugToolsExposureCheck;
-use Coding1688\DevTools\Diagnostics\Security\Checks\HttpsUrlCheck;
-use Coding1688\DevTools\Diagnostics\Security\Checks\ProductionDriversCheck;
-use Coding1688\DevTools\Diagnostics\Security\Checks\PublicExposureCheck;
-use Coding1688\DevTools\Diagnostics\Security\Checks\SessionCookieCheck;
-use Coding1688\DevTools\Diagnostics\Security\Checks\StorageWritableCheck;
-use Coding1688\DevTools\Diagnostics\Security\Checks\UploadExtensionCheck;
+use Moonsea\DevTools\Collectors\LogsCollector;
+use Moonsea\DevTools\Collectors\PerformanceCollector;
+use Moonsea\DevTools\Collectors\RequestCollector;
+use Moonsea\DevTools\Collectors\SecurityCollector;
+use Moonsea\DevTools\Collectors\ServerCollector;
+use Moonsea\DevTools\Collectors\SqlCollector;
+use Moonsea\DevTools\Collectors\TelemetryCollector;
+use Moonsea\DevTools\Diagnostics\Security\Checks\AppDebugCheck;
+use Moonsea\DevTools\Diagnostics\Security\Checks\AppKeyCheck;
+use Moonsea\DevTools\Diagnostics\Security\Checks\BcryptRoundsCheck;
+use Moonsea\DevTools\Diagnostics\Security\Checks\ComposerAuditCheck;
+use Moonsea\DevTools\Diagnostics\Security\Checks\DatabaseUserCheck;
+use Moonsea\DevTools\Diagnostics\Security\Checks\DebugToolsExposureCheck;
+use Moonsea\DevTools\Diagnostics\Security\Checks\HttpsUrlCheck;
+use Moonsea\DevTools\Diagnostics\Security\Checks\ProductionDriversCheck;
+use Moonsea\DevTools\Diagnostics\Security\Checks\PublicExposureCheck;
+use Moonsea\DevTools\Diagnostics\Security\Checks\SessionCookieCheck;
+use Moonsea\DevTools\Diagnostics\Security\Checks\StorageWritableCheck;
+use Moonsea\DevTools\Diagnostics\Security\Checks\UploadExtensionCheck;
 
 return [
     /*

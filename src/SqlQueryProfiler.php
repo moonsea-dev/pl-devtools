@@ -1,6 +1,6 @@
 <?php
 
-namespace Coding1688\DevTools;
+namespace Moonsea\DevTools;
 
 use Illuminate\Database\Events\QueryExecuted;
 use Illuminate\Http\Request;

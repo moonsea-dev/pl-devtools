@@ -1,8 +1,8 @@
 <?php
 
-namespace Coding1688\DevTools\Collectors;
+namespace Moonsea\DevTools\Collectors;
 
-use Coding1688\DevTools\Diagnostics\PerformanceAggregator;
+use Moonsea\DevTools\Diagnostics\PerformanceAggregator;
 
 final class PerformanceCollector implements Collector
 {

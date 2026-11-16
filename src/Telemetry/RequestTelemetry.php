@@ -1,8 +1,8 @@
 <?php
 
-namespace Coding1688\DevTools\Telemetry;
+namespace Moonsea\DevTools\Telemetry;
 
-use Coding1688\DevTools\Redactor;
+use Moonsea\DevTools\Redactor;
 use Illuminate\Cache\Events\CacheHit;
 use Illuminate\Cache\Events\CacheMissed;
 use Illuminate\Cache\Events\KeyForgotten;

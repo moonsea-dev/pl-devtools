@@ -1,9 +1,9 @@
 <?php
 
-namespace Coding1688\DevTools\Console;
+namespace Moonsea\DevTools\Console;
 
-use Coding1688\DevTools\Diagnostics\Security\SecurityAuditor;
-use Coding1688\DevTools\Diagnostics\Security\Severity;
+use Moonsea\DevTools\Diagnostics\Security\SecurityAuditor;
+use Moonsea\DevTools\Diagnostics\Security\Severity;
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
 

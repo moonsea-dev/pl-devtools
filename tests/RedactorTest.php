@@ -1,6 +1,6 @@
 <?php
 
-use Coding1688\DevTools\Redactor;
+use Moonsea\DevTools\Redactor;
 use Illuminate\Config\Repository;
 use Illuminate\Container\Container;
 use PHPUnit\Framework\TestCase;

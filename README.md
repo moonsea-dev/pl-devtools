@@ -2,11 +2,11 @@
 
 [English](README.md) | [简体中文](README.zh_CN.md) | [繁體中文](README.zh_TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
 
-[Moonsea](https://moonsea.dev) · [GitHub](https://github.com/coding1688/pl-devtools) · [Issues](https://github.com/coding1688/pl-devtools/issues)
+[Moonsea](https://moonsea.dev) · [GitHub](https://github.com/moonsea-dev/pl-devtools) · [Issues](https://github.com/moonsea-dev/pl-devtools/issues)
 
-## Version 0.5.0 baseline
+## Version 0.6.0 migration
 
-The three Moonsea packages restart at `v0.5.0`. Earlier tags and GitHub Releases have been removed; commit history remains. Update Composer version constraints and lock files explicitly. This is a new version baseline, not an automatic upgrade from the removed releases.
+Version `v0.6.0` uses Composer package `moonsea-dev/pl-devtools` and PHP namespace `Moonsea\DevTools`. Replace the previous package requirement, update application imports and published configuration, then update the Composer lock file and rebuild configuration caches. Existing `v0.5.0` tags remain available. This release changes package identity; it does not rename database tables or configuration keys.
 
 ## Laravel request profiling and diagnostics
 
@@ -17,14 +17,14 @@ SQL timelines, request details, outgoing HTTP/cache telemetry, server informatio
 Declared support: PHP `^8.2` and Laravel components `^11 | ^12 | ^13`. The chosen Laravel version may require newer PHP. This README describes current source; use a matching release. Laravel discovers the provider automatically. Install development dependencies in environments that need the tool.
 
 ```bash
-composer require --dev coding1688/pl-devtools
+composer require --dev moonsea-dev/pl-devtools
 php artisan vendor:publish --tag=devtools-config
 ```
 
 If your Composer registry cannot resolve the package, add the source repository before installing:
 
 ```bash
-composer config repositories.pl-devtools vcs https://github.com/coding1688/pl-devtools.git
+composer config repositories.pl-devtools vcs https://github.com/moonsea-dev/pl-devtools.git
 ```
 
 ## Enable locally
@@ -104,4 +104,4 @@ composer test
 
 ## License
 
-[MIT License](LICENSE). Copyright © 2026 [coding1688 · Moonsea](https://moonsea.dev).
+[MIT License](LICENSE). Copyright © 2026 [moonsea-dev · Moonsea](https://moonsea.dev).

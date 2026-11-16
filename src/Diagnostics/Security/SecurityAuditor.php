@@ -1,6 +1,6 @@
 <?php
 
-namespace Coding1688\DevTools\Diagnostics\Security;
+namespace Moonsea\DevTools\Diagnostics\Security;
 
 use Illuminate\Support\Facades\Cache;
 use Throwable;

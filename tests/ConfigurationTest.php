@@ -1,6 +1,6 @@
 <?php
 
-use Coding1688\DevTools\DevToolsServiceProvider;
+use Moonsea\DevTools\DevToolsServiceProvider;
 use Illuminate\Config\Repository;
 use Illuminate\Container\Container;
 use Illuminate\Foundation\Application;

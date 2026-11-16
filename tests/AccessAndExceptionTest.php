@@ -1,9 +1,9 @@
 <?php
 
-use Coding1688\DevTools\Collectors\CollectorRegistry;
-use Coding1688\DevTools\DevToolsMid;
-use Coding1688\DevTools\ProfiledBladeEngine;
-use Coding1688\DevTools\SqlQueryProfiler;
+use Moonsea\DevTools\Collectors\CollectorRegistry;
+use Moonsea\DevTools\DevToolsMid;
+use Moonsea\DevTools\ProfiledBladeEngine;
+use Moonsea\DevTools\SqlQueryProfiler;
 use Illuminate\Auth\Access\Gate;
 use Illuminate\Config\Repository;
 use Illuminate\Container\Container;

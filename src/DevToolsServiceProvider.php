@@ -1,22 +1,22 @@
 <?php
 
-namespace Coding1688\DevTools;
+namespace Moonsea\DevTools;
 
-use Coding1688\DevTools\Collectors\Collector;
-use Coding1688\DevTools\Collectors\CollectorRegistry;
-use Coding1688\DevTools\Collectors\LogsCollector;
-use Coding1688\DevTools\Collectors\PerformanceCollector;
-use Coding1688\DevTools\Collectors\RequestCollector;
-use Coding1688\DevTools\Collectors\SecurityCollector;
-use Coding1688\DevTools\Collectors\ServerCollector;
-use Coding1688\DevTools\Collectors\SqlCollector;
-use Coding1688\DevTools\Collectors\TelemetryCollector;
-use Coding1688\DevTools\Console\AuditCommand;
-use Coding1688\DevTools\Diagnostics\LogSummary;
-use Coding1688\DevTools\Diagnostics\PerformanceAggregator;
-use Coding1688\DevTools\Diagnostics\Security\SecurityAuditor;
-use Coding1688\DevTools\Diagnostics\ServerInfo;
-use Coding1688\DevTools\Telemetry\RequestTelemetry;
+use Moonsea\DevTools\Collectors\Collector;
+use Moonsea\DevTools\Collectors\CollectorRegistry;
+use Moonsea\DevTools\Collectors\LogsCollector;
+use Moonsea\DevTools\Collectors\PerformanceCollector;
+use Moonsea\DevTools\Collectors\RequestCollector;
+use Moonsea\DevTools\Collectors\SecurityCollector;
+use Moonsea\DevTools\Collectors\ServerCollector;
+use Moonsea\DevTools\Collectors\SqlCollector;
+use Moonsea\DevTools\Collectors\TelemetryCollector;
+use Moonsea\DevTools\Console\AuditCommand;
+use Moonsea\DevTools\Diagnostics\LogSummary;
+use Moonsea\DevTools\Diagnostics\PerformanceAggregator;
+use Moonsea\DevTools\Diagnostics\Security\SecurityAuditor;
+use Moonsea\DevTools\Diagnostics\ServerInfo;
+use Moonsea\DevTools\Telemetry\RequestTelemetry;
 use Illuminate\Cache\Events\CacheHit;
 use Illuminate\Cache\Events\CacheMissed;
 use Illuminate\Cache\Events\KeyForgotten;

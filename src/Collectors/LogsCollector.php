@@ -1,8 +1,8 @@
 <?php
 
-namespace Coding1688\DevTools\Collectors;
+namespace Moonsea\DevTools\Collectors;
 
-use Coding1688\DevTools\Diagnostics\LogSummary;
+use Moonsea\DevTools\Diagnostics\LogSummary;
 
 final class LogsCollector implements Collector
 {

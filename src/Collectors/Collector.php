@@ -1,6 +1,6 @@
 <?php
 
-namespace Coding1688\DevTools\Collectors;
+namespace Moonsea\DevTools\Collectors;
 
 interface Collector
 {

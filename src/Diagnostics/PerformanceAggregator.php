@@ -1,8 +1,8 @@
 <?php
 
-namespace Coding1688\DevTools\Diagnostics;
+namespace Moonsea\DevTools\Diagnostics;
 
-use Coding1688\DevTools\SqlQueryProfiler;
+use Moonsea\DevTools\SqlQueryProfiler;
 use Illuminate\Support\Facades\Cache;
 
 /**

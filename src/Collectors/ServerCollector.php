@@ -1,8 +1,8 @@
 <?php
 
-namespace Coding1688\DevTools\Collectors;
+namespace Moonsea\DevTools\Collectors;
 
-use Coding1688\DevTools\Diagnostics\ServerInfo;
+use Moonsea\DevTools\Diagnostics\ServerInfo;
 
 final class ServerCollector implements Collector
 {

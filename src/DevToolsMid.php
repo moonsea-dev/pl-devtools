@@ -1,10 +1,10 @@
 <?php
 
-namespace Coding1688\DevTools;
+namespace Moonsea\DevTools;
 
 use Closure;
-use Coding1688\DevTools\Collectors\CollectorRegistry;
-use Coding1688\DevTools\Telemetry\RequestTelemetry;
+use Moonsea\DevTools\Collectors\CollectorRegistry;
+use Moonsea\DevTools\Telemetry\RequestTelemetry;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 use Symfony\Component\HttpFoundation\Response;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Coding1688\DevTools\Diagnostics;
+namespace Moonsea\DevTools\Diagnostics;
 
-use Coding1688\DevTools\Redactor;
+use Moonsea\DevTools\Redactor;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Str;
 

@@ -2,11 +2,11 @@
 
 [English](README.md) | [简体中文](README.zh_CN.md) | [繁體中文](README.zh_TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
 
-[Moonsea](https://moonsea.dev) · [GitHub](https://github.com/coding1688/pl-devtools) · [Issues](https://github.com/coding1688/pl-devtools/issues)
+[Moonsea](https://moonsea.dev) · [GitHub](https://github.com/moonsea-dev/pl-devtools) · [Issues](https://github.com/moonsea-dev/pl-devtools/issues)
 
-## 0.5.0 版本基线
+## 0.6.0 升级说明
 
-三个 Moonsea 包统一从 `v0.5.0` 重新开始。原标签和 GitHub Releases 已清理，提交历史保留。请显式更新 Composer 版本约束和锁文件。这是新的版本基线，不是从已移除版本自动升级。
+`v0.6.0` 使用 Composer 包名 `moonsea-dev/pl-devtools` 和 PHP 命名空间 `Moonsea\DevTools`。请替换原包依赖，更新应用中的类引用及已发布配置，再更新 Composer 锁文件并重建配置缓存。保留已有 `v0.5.0` 标签。本次更改包标识，不更改数据库表名或配置键。
 
 ## Laravel 请求分析与诊断工具
 
@@ -17,14 +17,14 @@
 声明支持 PHP `^8.2`、Laravel 组件 `^11 | ^12 | ^13`；具体 Laravel 版本可能要求更新的 PHP。本文描述当前源码，请使用对应版本。Laravel 会自动发现服务提供者。需要工具的环境必须安装开发依赖。
 
 ```bash
-composer require --dev coding1688/pl-devtools
+composer require --dev moonsea-dev/pl-devtools
 php artisan vendor:publish --tag=devtools-config
 ```
 
 如果 Composer 仓库无法找到包，先添加源码仓库，再执行安装命令：
 
 ```bash
-composer config repositories.pl-devtools vcs https://github.com/coding1688/pl-devtools.git
+composer config repositories.pl-devtools vcs https://github.com/moonsea-dev/pl-devtools.git
 ```
 
 ## 本地启用
@@ -104,4 +104,4 @@ composer test
 
 ## 许可证
 
-[MIT License](LICENSE). Copyright © 2026 [coding1688 · Moonsea](https://moonsea.dev).
+[MIT License](LICENSE). Copyright © 2026 [moonsea-dev · Moonsea](https://moonsea.dev).

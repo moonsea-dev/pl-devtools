@@ -2,11 +2,11 @@
 
 [English](README.md) | [简体中文](README.zh_CN.md) | [繁體中文](README.zh_TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
 
-[Moonsea](https://moonsea.dev) · [GitHub](https://github.com/coding1688/pl-devtools) · [Issues](https://github.com/coding1688/pl-devtools/issues)
+[Moonsea](https://moonsea.dev) · [GitHub](https://github.com/moonsea-dev/pl-devtools) · [Issues](https://github.com/moonsea-dev/pl-devtools/issues)
 
-## バージョン 0.5.0 の基準
+## 0.6.0 への移行
 
-3 つの Moonsea パッケージは `v0.5.0` から再開します。以前のタグと GitHub Releases は削除し、コミット履歴は保持しています。Composer のバージョン制約とロックファイルを明示的に更新してください。これは新しいバージョン基準であり、削除したリリースからの自動更新ではありません。
+`v0.6.0` の Composer パッケージ名は `moonsea-dev/pl-devtools`、PHP 名前空間は `Moonsea\DevTools` です。以前のパッケージ依存を置き換え、アプリケーションのクラス参照と公開済み設定を更新してから、Composer ロックファイルと設定キャッシュを更新してください。既存の `v0.5.0` タグは保持します。このリリースではパッケージの識別子を変更しますが、データベースのテーブル名や設定キーは変更しません。
 
 ## Laravel のリクエスト分析・診断ツール
 
@@ -17,14 +17,14 @@ SQL タイムライン、リクエスト情報、HTTP／キャッシュ計測、
 宣言上の対応範囲は PHP `^8.2`、Laravel コンポーネント `^11 | ^12 | ^13` です。選択した Laravel によっては、より新しい PHP が必要です。この文書は現在のソースを説明しています。対応するリリースを使用してください。サービスプロバイダーは自動検出されます。使用する環境には開発用依存関係もインストールしてください。
 
 ```bash
-composer require --dev coding1688/pl-devtools
+composer require --dev moonsea-dev/pl-devtools
 php artisan vendor:publish --tag=devtools-config
 ```
 
 Composer のレジストリで見つからない場合は、先にソースリポジトリを追加してください。
 
 ```bash
-composer config repositories.pl-devtools vcs https://github.com/coding1688/pl-devtools.git
+composer config repositories.pl-devtools vcs https://github.com/moonsea-dev/pl-devtools.git
 ```
 
 ## ローカルで有効化
@@ -104,4 +104,4 @@ composer test
 
 ## ライセンス
 
-[MIT License](LICENSE). Copyright © 2026 [coding1688 · Moonsea](https://moonsea.dev).
+[MIT License](LICENSE). Copyright © 2026 [moonsea-dev · Moonsea](https://moonsea.dev).

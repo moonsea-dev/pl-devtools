@@ -1,9 +1,9 @@
 <?php
 
-namespace Coding1688\DevTools;
+namespace Moonsea\DevTools;
 
-use Coding1688\DevTools\Collectors\CollectorRegistry;
-use Coding1688\DevTools\Diagnostics\ServerInfo;
+use Moonsea\DevTools\Collectors\CollectorRegistry;
+use Moonsea\DevTools\Diagnostics\ServerInfo;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;

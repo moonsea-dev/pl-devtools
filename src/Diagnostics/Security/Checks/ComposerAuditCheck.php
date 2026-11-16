@@ -1,9 +1,9 @@
 <?php
 
-namespace Coding1688\DevTools\Diagnostics\Security\Checks;
+namespace Moonsea\DevTools\Diagnostics\Security\Checks;
 
-use Coding1688\DevTools\Diagnostics\Security\Check;
-use Coding1688\DevTools\Diagnostics\Security\Severity;
+use Moonsea\DevTools\Diagnostics\Security\Check;
+use Moonsea\DevTools\Diagnostics\Security\Severity;
 use Symfony\Component\Process\Process;
 use Throwable;
 

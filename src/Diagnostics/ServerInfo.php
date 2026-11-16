@@ -1,6 +1,6 @@
 <?php
 
-namespace Coding1688\DevTools\Diagnostics;
+namespace Moonsea\DevTools\Diagnostics;
 
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
